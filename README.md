@@ -1,3 +1,17 @@
+# Resume-Builder-Frontend
+
+## Steps to run Frontend
+
+- Run `yarn install` or `npm install`.
+- Create `.env` file to config API URL `REACT_APP_API_URL` eg. `http://localhost:4000/api/` , & `REACT_APP_IMAGE_URL` eg. `http://localhost:4000`
+- run project `yarn start` or `npm start`
+
+## Default Login
+### user
+`admin@yopmail.com`
+### Password
+`password`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
