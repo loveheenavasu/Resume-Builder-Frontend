@@ -136,7 +136,7 @@ function TemplateOne(props) {
         </Col>
         <Col xs md="4">
           {console.log(user.image, "User Image")}
-          <img src={props.previewMode ? (user.image !== undefined && user.image != '' ? URL + user.image: process.env.PUBLIC_URL + '/images/profile-thumb.png'): process.env.PUBLIC_URL + '/images/profile-thumb.png'} alt="Profile-Img" className="img-thumbnail" />
+          <img src={props.previewMode ? (user.image !== undefined && user.image !== '' ? URL + user.image: process.env.PUBLIC_URL + '/images/profile-thumb.png'): process.env.PUBLIC_URL + '/images/profile-thumb.png'} alt="Profile-Img" className="img-thumbnail" />
 
           <Row className='mt-5'>
             <Row>

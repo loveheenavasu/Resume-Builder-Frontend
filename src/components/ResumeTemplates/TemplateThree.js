@@ -14,7 +14,7 @@ function TemplateThree(props) {
                             <div className="col-md-4">
                                 <div className="side-details">
                                     <div className="sidebar-content">
-                                        <img src={props.previewMode ? (user.image !== undefined && user.image != '' ? URL + user.image: process.env.PUBLIC_URL + '/images/profile-thumb.png'): process.env.PUBLIC_URL + '/images/profile-thumb.png'} alt="img" className="w-100" />
+                                        <img src={props.previewMode ? (user.image !== undefined && user.image !== '' ? URL + user.image: process.env.PUBLIC_URL + '/images/profile-thumb.png'): process.env.PUBLIC_URL + '/images/profile-thumb.png'} alt="img" className="w-100" />
                                     </div>
                                     <div className="contact-details">
                                         <div className="d-flex align-items-center pb-2">

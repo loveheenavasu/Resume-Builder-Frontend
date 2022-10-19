@@ -9,7 +9,6 @@ import Education from './profile-compoanents/Education';
 import InterestsHobbies from './profile-compoanents/InterestsHobbies';
 import Skills from './profile-compoanents/Skills';
 import { ImageInput } from "formik-file-and-image-input/lib";
-import profileThumb from '../components/images/profile-thumb.png';
 import { getUser } from './Auth/Auth';
 
 const user = getUser();
@@ -115,7 +114,7 @@ function CustomImageInputWrapper({ onClick, fileName, src }) {
     <>
       <Col className="profileContainer">
         <Image
-          src={src ? src : profileThumb}
+          src={src ? src : process.env.PUBLIC_URL + '/images/profile-thumb.png'}
           className="content-image w-100"
           alt={fileName}
         />
