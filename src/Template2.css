@@ -1,0 +1,129 @@
+@font-face {
+  font-family: "Gothic.ttf";
+  src: url("/Fonts/Century\ Gothic.ttf");
+}
+
+body {
+  font-family: "Gothic.ttf";
+}
+
+.details::before {
+  border-top: 1px solid #e3d7da;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 25px;
+  width: 175px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.details {
+  position: relative;
+}
+
+.bio-sec h1 {
+  font-size: 65px;
+  line-height: 65px;
+  padding-bottom: 30px;
+  padding-top: 37px;
+  font-weight: bold;
+  margin: 0;
+  color: #fff;
+  border-bottom: 1px solid#084b81;
+}
+
+.borders-deco {
+  border-right: 1px solid #fff;
+  padding-right: 15px;
+}
+
+.special-container {
+  max-width: 100%;
+}
+
+.more-details h6 {
+  color: #fff;
+  margin: 0px 10px;
+  font-size: 12.5px;
+  line-height: 19px;
+  padding-bottom: 5px;
+}
+
+.bio-sec {
+  background: #084b81;
+  padding: 50px 0px 10px;
+  overflow: hidden;
+}
+
+.more-details {
+  padding-top: 50px;
+}
+
+.more-details h3 {
+  font-size: 20px;
+  color: #084b81;
+  line-height: 14px;
+  position: relative;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.details-para {
+  margin-bottom: 0;
+  color: #231f20;
+  line-height: 24px;
+  font-size: 16px;
+  max-width: 90%;
+}
+
+.more-details h3:before {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -16px;
+  width: 110px;
+  border-top: 1px solid #e3d7da;
+  content: "";
+}
+
+.retail-details {
+  font-weight: bold;
+  line-height: 24px;
+  border-right: 1px solid #000;
+  padding-right: 10px;
+}
+
+.details-span {
+  margin-bottom: 0;
+  color: #231f20;
+  line-height: 24px;
+  font-size: 16px;
+  padding-left: 5px;
+}
+
+.header-contact {
+  display: flex;
+}
+
+@media only screen and (max-width: 480px) {
+  .header-contact {
+    display: block;
+  }
+
+  h1 {
+    font-size: 42px;
+    line-height: 40px;
+    padding-bottom: 18px;
+    padding-top: 37px;
+  }
+
+  .borders-deco {
+    border-right: 0px;
+  }
+
+  .bio-sec {
+    padding: 20px 0px 10px;
+  }
+}
